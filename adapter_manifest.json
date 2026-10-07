@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "files": {
+    "README.md": "eb789871b43fe8f60790df09fc69cc83218a99fe1bc1f7f59b23457274bd08a0",
+    "adapter_config.json": "509a43c8d2bfb35d39f9fabbfafb0a7bc7a090f00dfcb1998c3cfc911c2ef7c2",
+    "adapter_model.safetensors": "7a63c3672ac72fe85e190f3ccdc74b108dec220a56f2ff9c7ff000afb9598de3",
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "processor_config.json": "32bdf45d2ad4cc29a0822ddd157a182de76644f0419a6228d151495256e9813c",
+    "run_metadata.json": "aec75b34c6ae3220283c3b18cdafccedf5878105a3eecdd7595cf1679489facb",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "b8045a4576903e86903291d5cbdd4adfc8859e9ce3c98621bdbd957f73ed394b",
+    "training_args.bin": "c2163676935f2506ed3f523704cb838dfa37a1f3cc7c8e4022524f279d7e217b"
+  }
+}

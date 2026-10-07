@@ -1,0 +1,53 @@
+{
+  "preflight": false,
+  "data_policy": "candidate_experiment",
+  "train": "/content/31B稠密老板大模型训练/05_最终训练数据/SFT训练全集_审核中_500.jsonl",
+  "validation": "/content/31B稠密老板大模型训练/05_最终训练数据/SFT验证全集_审核中_104.jsonl",
+  "model_id": "paperscarecrow/Gemma-4-31B-it-abliterated",
+  "revision": "2491ee58472b82a2372d288f982943b9d5e6a82c",
+  "template_sha256": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+  "train_sha256": "e70ccbad7d9c03a0885c2f568962eba93d964df3003fdd27ddea372fcabfa614",
+  "validation_sha256": "ae1b1598b11fb9941dd6b2f9cb7daebd0e6869a46801c2a9e4d4e9227347057d",
+  "output": "/content/31B稠密老板大模型训练/model_output/v2.6",
+  "resume": null,
+  "max_seq_length": 4096,
+  "batch_size": 1,
+  "accumulation": 8,
+  "learning_rate": 2e-05,
+  "epochs": 1.0,
+  "max_steps": -1,
+  "smoke_test": false,
+  "save_steps": 25,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "seed": 42,
+  "tokenization_version": "v2.2-inference-prefix-per-assistant-turn",
+  "train_script_sha256": "5b8ed6a8330498d6e9ffeb33434af80222c31e508a9235895603c4c2e6ede3e7",
+  "training_turns": 528,
+  "validation_turns": 104,
+  "created_at_unix": 1791366355.3098445,
+  "torch": "2.14.1+cu130",
+  "dependencies": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "tokenizers": "0.23.2",
+    "huggingface-hub": "1.33.0"
+  },
+  "python_version": "3.13.15",
+  "cuda_version": "13.0",
+  "hardware": {
+    "name": "NVIDIA A100-SXM4-80GB",
+    "total_memory": 85094825984
+  },
+  "release_status": "HOLD",
+  "data_audit": {
+    "pending_independent_signoffs": 604,
+    "provisional_metadata_rows": 501,
+    "semantic_independence_verified": false
+  },
+  "transformers": "5.19.0",
+  "peft": "0.21.2"
+}
